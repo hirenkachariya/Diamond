@@ -1,0 +1,315 @@
+.diamondlist_blog {
+    background-color: #f6f4f2;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+.diamondlist_blog_home {
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.diamondlist_blog_home a {
+    font-size: 12px;
+    color: #565656;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.diamondlist_blog_home p {
+    font-size: 12px;
+    color: #565656;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.diamondlist_blog_home span {
+    font-size: 12px;
+    color: #565656;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.diamondlist_one_list {
+    padding-bottom: 20px;
+}
+
+.diamondlist_one_heading,
+.diamondlist_two_heading,
+.diamondlist_clarity_heading,
+.diamondlist_color_heading {
+    padding-bottom: 10px;
+}
+
+.diamondlist_one_heading h5,
+.diamondlist_two_heading h5,
+.diamondlist_clarity_heading h5,
+.diamondlist_color_heading h5,
+.diamond_POLISH_heading h5,
+.diamond_search_span span,
+.diamond_lab_heading h5,
+.diamond_sym_heading h5 {
+    font-size: 15px;
+    color: #141411;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.diamondlist_one svg {
+    background-color: transparent;
+    padding: 10px;
+    margin-right: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 1px 1px #bdbdbd;
+}
+
+.diamondlist_two_icon_name li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.diamondlist_color_name li {
+    display: inline-block;
+    font-size: 14px;
+    color: #000000;
+    font-family: 'Poppins', sans-serif !important;
+    display: inline-block;
+    padding: 10px 15px;
+    margin-right: 8px;
+    margin-bottom: 10px;
+    max-width: 40px;
+    min-width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0px 0px 1px 1px #bdbdbd;
+    border-radius: 2px;
+
+}
+.diamondlist_clarity_name ul,
+.diamondlist_color_name ul,
+.diamondlist_two_icon_name ul,
+.diamond_search_list ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+.diamondlist_clarity_name li {
+    font-size: 14px;
+    color: #000000;
+    font-family: 'Poppins', sans-serif !important;
+    padding: 10px 15px;
+    margin-right: 8px;
+    margin-bottom: 10px;
+    max-width: 40px;
+    min-width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0px 0px 1px 1px #bdbdbd;
+    border-radius: 2px;
+}
+
+.diamondlist_two_icon_name li {
+    font-size: 14px;
+    color: #000000;
+    font-family: 'Poppins', sans-serif !important;
+    padding: 10px 15px;
+    margin-right: 8px;
+    margin-bottom: 10px;
+    max-width: 40px;
+    min-width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0px 0px 1px 1px #bdbdbd;
+    border-radius: 2px;
+}
+
+.all-active {
+    color: #fff !important;
+    background: #141414;
+    box-shadow: 0px 0px 1px 1px #141414 !important;
+}
+
+.all-actives {
+    color: #fff !important;
+    background: #141414;
+    box-shadow: 0px 0px 1px 1px #141414 !important;
+}
+
+.range_one .MuiSlider-root {
+    color: #141414;
+    height: 2px;
+}
+
+.css-eg0mwd-MuiSlider-thumb {
+    width: 11px !important;
+    height: 11px !important;
+    color: #141414;
+}
+
+.range_one {
+    padding-top: 40px;
+}
+
+.range_ones {
+    padding-top: 30px;
+}
+
+.range_ones .MuiSlider-root {
+    color: #141414;
+    height: 2px;
+}
+
+.range_ones h5 {
+    font-size: 15px;
+    color: #141411;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.range_one h5 {
+    font-size: 15px;
+    color: #141411;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.range_list_one {
+    display: flex;
+    justify-content: space-between;
+}
+
+.range_list_one span,
+.range_list_one p {
+    border: 1px solid #dbdbdb !important;
+    padding: 4px 10px;
+    box-shadow: 0 2px 6px rgb(0 0 0 / 16%);
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 12px !important;
+    font-weight: 500;
+}
+
+.diamond_search {
+    padding-top: 50px;
+}
+
+.diamond_lab,
+.diamond_sym {
+    padding-top: 100px;
+}
+
+.diamond_search_span {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.diamond_POLISH {
+    padding-top: 30px;
+}
+
+.diamond_search_heading h5 {
+    font-size: 27px;
+    color: #141411;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 400;
+    margin: 0px;
+}
+
+.diamond_search_list li {
+    font-size: 14px;
+    color: #000000;
+    padding: 8px 5px;
+    margin-right: 8px;
+    margin-bottom: 10px;
+    max-width: 60px;
+    min-width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0px 0px 1px 1px #bdbdbd;
+    border-radius: 2px;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 400;
+}
+
+.diamond_POLISH_list ul,
+.diamond_lab_list ul,
+.diamond_sym_list ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.diamond_POLISH_list li,
+.diamond_lab_list li,
+.diamond_sym_list li {
+    font-size: 14px;
+    color: #000000;
+    padding: 10px 15px;
+    margin-right: 8px;
+    margin-bottom: 10px;
+    max-width: 40px;
+    min-width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0px 0px 1px 1px #bdbdbd;
+    border-radius: 2px;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 400;
+}
+
+.diamond_show_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    border-top: 1px solid #bdbdbd;
+}
+
+.diamond_show_button a {
+    background-color: #141411;
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif !important;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.diamond_show_button span {
+    padding-right: 50px;
+    font-size: 14px;
+    padding-left: 2px;
+}
+
+.diamond_show_button .MuiSvgIcon-root {
+    color: #fff;
+    font-size: 14px;
+}
+
+.diamond_button_price span {
+    border: 1px solid #dbdbdb !important;
+    padding: 4px 10px;
+    box-shadow: 0 2px 6px rgb(0 0 0 / 16%);
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 12px !important;
+    font-weight: 500;
+    margin-right: 10px;
+}
+.material_icon button {
+    background-color: #fff;
+    border: 0;
+}
+
+.table_list {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: auto;
+    white-space: nowrap;
+}

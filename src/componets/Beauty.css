@@ -1,0 +1,310 @@
+.beauty {
+    padding-bottom: 230px;
+}
+
+.beauty .MuiContainer-root {
+    max-width: 1300px;
+    width: 100%;
+}
+
+.beauty .row {
+    margin: 0 100px !important;
+}
+
+.beauty-page {
+    padding: 0px 140px;
+}
+
+.beauty_blog {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.beauty_blog_one {
+    margin-top: 70px;
+    text-align: right;
+}
+
+.beauty_op_list_one {
+    position: absolute;
+    left: 60%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.beauty_op_list_two,
+.beauty_op_list_three {
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.beauty_box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.beauty_op {
+    position: relative;
+}
+
+.beauty_blog_one img,
+.beauty_blog_two img,
+.beauty_blog_three img,
+.beauty_blog_four img,
+.beauty_box_two img {
+    width: 100%;
+    max-width: 470px !important;
+}
+
+.beauty_box_one img {
+    max-width: 133px;
+    width: 100%;
+}
+
+.beauty_box_one {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.beauty_box_one_list_box {
+    padding: 80px 0px;
+}
+
+.beauty_box_one_list_heading h5 {
+    font-size: 22px;
+    color: #141414;
+    font-weight: 400;
+    letter-spacing: 0.015em;
+    font-family: 'Poppins', sans-serif !important;
+
+}
+
+.beauty_box_one_list_paragraph p {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif !important;
+    max-width: 399px;
+    width: 100%;
+    line-height: 1.8;
+}
+
+.beauty_box_one_list_find {
+    display: flex;
+    justify-content: center;
+}
+
+.beauty_box_one_list_find a {
+    font-size: 12px;
+    color: #141414;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: .03em;
+}
+
+.beauty_op_button li a {
+    color: #ffffff;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 12px;
+    letter-spacing: .03em;
+    position: relative;
+}
+
+.beauty_op_buttons li a {
+    position: relative;
+}
+
+.beauty_op_button li a::before,
+.beauty_op_buttons li a::before {
+    position: absolute;
+    content: '';
+    height: 4px;
+    width: 4px;
+    border-radius: 50%;
+    background-color: #fff;
+    left: -15px;
+    top: 7px;
+
+}
+
+.beauty_op_buttons {
+    text-align: center;
+}
+
+.beauty_op_buttons li a {
+    color: #ffffff;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 12px;
+    letter-spacing: .03em;
+}
+
+.beauty_op_buttons ul li::after {
+    position: absolute;
+    content: '';
+    bottom: -5px;
+    left: 42px;
+    height: 1px;
+    width: 70px;
+    background-color: #fff;
+}
+
+.beauty_op_buttons {
+    opacity: 0;
+    visibility: hidden;
+    position: relative;
+    bottom: -10px;
+    transition: 0.4s ease-in-out;
+    text-align: center;
+}
+
+.beauty_op:hover .beauty_op_buttons {
+    visibility: visible;
+    bottom: 0px;
+    opacity: 1;
+}
+
+
+.beauty_blog_one_heading,
+.beauty_blog_two_heading,
+.beauty_box_two_heading {
+    padding-bottom: 10px;
+}
+
+.beauty_blog_two_heading h4 {
+    max-width: 160px;
+    width: 100%;
+    text-align: center;
+}
+
+.beauty_blog_one_heading h4 a,
+.beauty_blog_two_heading h4 a,
+.beauty_box_two_heading h4 a {
+    font-size: 27px;
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.beauty_op_button ul li::after {
+    position: absolute;
+    content: '';
+    bottom: -5px;
+    left: 63px;
+    height: 1px;
+    width: 70px;
+    background-color: #fff;
+}
+
+.beauty_box_one_list_find {
+    position: relative;
+}
+
+.beauty_box_one_list_find li::after {
+    position: absolute;
+    content: '';
+    bottom: -5px;
+    left: 0;
+    margin: 0 auto;
+    right: 15px;
+    height: 1px;
+    width: 85px;
+    background-color: #000;
+}
+
+.beauty_op_button {
+    opacity: 0;
+    visibility: hidden;
+    position: relative;
+    bottom: -10px;
+    transition: 0.4s ease-in-out;
+    text-align: center;
+}
+
+.beauty_op:hover .beauty_op_button {
+    visibility: visible;
+    bottom: 0px;
+    opacity: 1;
+}
+
+/* responesive */
+@media screen and (max-width: 1239px) {
+    .beauty_op_list_one {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .beauty_op_list_two {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .beauty_op_list_three {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .beauty_box_one_list_box {
+        padding: 20px 0px;
+    }
+
+    .beauty_box_one {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .beauty .row {
+        margin: 0px 20px !important;
+    }
+
+    .beauty_box_one_list_box {
+        padding: 10px 0px;
+    }
+
+    .beauty_box_one {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .beauty {
+        padding-bottom: 150px;
+    }
+}
+
+@media screen and (max-width: 543px) {
+    span.navbar-toggler-icon {
+        height: 25px;
+        width: 25px;
+    }
+
+    .beauty_blog_two {
+        padding: 20px 0px;
+    }
+
+    .beauty_box_one {
+        padding-bottom: 30px;
+    }
+
+    .beauty .row>div {
+        padding: 0 !important;
+    }
+}
+
+/* responesive */

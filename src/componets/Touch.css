@@ -1,0 +1,210 @@
+.touch {
+    margin: 110px 0px;
+    border-top: 1px solid #eee;
+    padding-top: 100px;
+}
+
+.touch .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.touch_GET {
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+}
+
+.touch_contact_heading h5 {
+    font-size: 15px;
+    color: #141414;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.touch_contact_paragraph {
+    padding-bottom: 2px;
+}
+
+.touch_contact_paragraph p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif !important;
+
+}
+
+.touch_contact_number a {
+    color: #2d2d2d;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.touch_GET_heading h5 {
+    font-size: 27px;
+    font-size: #141414;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif !important;
+    margin: 0px;
+}
+
+.touch_GET_paragraph {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.touch_GET_paragraph p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #2d2d2d;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.touch_GET_input p {
+    max-width: 540px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.touch_GET_input input {
+    border: 1px solid #141414;
+    height: 50px;
+    width: 100%;
+    padding-left: 25px;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif !important;
+    color: #2d2d2d;
+
+}
+
+.touch_GET_input span {
+    background-color: #141414 !important;
+    padding: 16px 60px;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 500;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+}
+
+.touch_GET_input span a {
+    transition: all 0.2s linear;
+    background: linear-gradient(to bottom,
+            rgb(255, 255, 255) 0%,
+            rgb(255, 255, 255) 98%);
+    background-size: 0px 1px;
+    background-repeat: no-repeat;
+    background-position: left 100%;
+    color: #fff !important;
+}
+
+.touch_GET_input span a:hover {
+    background-size: 100% 1px;
+}
+
+.touch_GET_des {
+    padding-top: 15px;
+}
+
+.touch_GET_des span {
+    color: #2d2d2d;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.touch_SOCIAL_heading {
+    padding-bottom: 15px;
+}
+
+.touch_SOCIAL_heading h5 {
+    font-size: 15px;
+    color: #141414;
+    font-family: 'Poppins', sans-serif !important;
+    margin: 0px;
+}
+
+.touch_SOCIAL_list .MuiSvgIcon-root {
+    margin: 0px 10px;
+}
+
+.touch_contact_number a {
+    padding-bottom: 2px;
+    transition: all 0.2s linear;
+    background: linear-gradient(to bottom,
+            rgba(20, 20, 20, 1) 0%,
+            rgba(20, 20, 20, 1) 98%);
+    background-size: 0px 1px;
+    background-repeat: no-repeat;
+    background-position: left 100%;
+}
+
+.touch_contact_number a:hover {
+    background-size: 100% 1px;
+}
+
+/* responesive */
+@media screen and (max-width: 992px) {
+    .touch {
+        border-top: none;
+        margin: 50px 0px;
+        padding-top: 50px;
+    }
+
+    .touch_contact {
+        border-top: 1px solid #eee;
+    }
+
+    .touch_GET {
+        border-left: none;
+        border-right: none;
+        border-top: 1px solid #eee;
+        border-bottom: 1px solid #eee;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .touch_contact {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .touch_SOCIAL {
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .beauty_blog_two,
+    .beauty_box_two {
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width: 544px) {
+    .touch {
+        margin: 50px 0px;
+        padding-top: 20px;
+    }
+
+    .touch_GET_input input {
+        height: 45px;
+    }
+
+    .touch_GET_input span {
+        padding: 13px 50px;
+    }
+}
+
+@media screen and (max-width: 371px) {
+    .touch_GET_input span {
+        padding: 10px 30px;
+    }
+
+    .touch_GET_input input {
+        height: 39px;
+    }
+}
+
+/* responesive */

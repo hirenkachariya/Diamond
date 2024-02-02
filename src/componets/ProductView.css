@@ -1,0 +1,173 @@
+.product_blog {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.product_blog_home {
+    display: flex;
+    align-items: center;
+}
+
+.product_blog_home_icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #f3f3f3;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.product_blog_diamond {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.product_blog_diamond .container {
+    max-width: 100% !important;
+    width: 100%;
+}
+
+#dropdown-basic {
+    background-color: transparent;
+    border: none;
+    color: #141414;
+}
+
+.product_blog_home a {
+    font-size: 12px;
+    color: #656565;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.product_blog_home p {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.product_blog_home p,
+.product_blog_home span {
+    font-size: 12px;
+    color: #656565;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.product_list_box {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product_heading {
+    padding-bottom: 15px;
+}
+
+.product_slider .MuiSlider-root {
+    color: #141414;
+    height: 2px;
+}
+
+.css-eg0mwd-MuiSlider-thumb {
+    width: 11px !important;
+    height: 11px !important;
+    color: #141414;
+}
+
+.product_slider_range {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product_slider_range span,
+.product_slider_range p {
+    border: 1px solid #dbdbdb !important;
+    padding: 4px 10px;
+    box-shadow: 0 2px 6px rgb(0 0 0 / 16%);
+}
+
+.product_metal {
+    padding-top: 50px;
+}
+
+.product_Diamond,
+.product_Weight,
+.product_Setting {
+    padding-top: 40px;
+}
+
+.product_heading h4 {
+    font-size: 22px;
+    color: #141414;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.product_side p {
+    font-size: 14px;
+    color: #141414;
+    font-family: 'Poppins', sans-serif !important;
+    cursor: pointer;
+}
+
+.product_side .MuiSvgIcon-root {
+    font-size: 16px;
+}
+
+.product_side span {
+    padding-left: 5px;
+}
+
+.offcanvas-header {
+    background-color: #f6f4f2;
+    padding: 29px 31px 29px 25px;
+}
+
+.offcanvas-title {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.offcanvas-header .btn-close {
+    font-size: 10px;
+    color: #2d2d2d;
+}
+
+.product_metal_heading,
+.product_Diamond_heading,
+.product_Weight_heading,
+.product_Setting_heading {
+    padding-bottom: 15px;
+}
+
+.product_metal_heading h5,
+.product_Diamond_heading h5,
+.product_Weight_heading h5,
+.product_Setting_heading h5 {
+    font-size: 22px;
+    color: #141414;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif !important;
+    margin: 0;
+}
+
+.product_metal_list li,
+.product_Diamond_list li,
+.product_Weight_list li,
+.product_Setting_list li {
+    padding-bottom: 8px;
+}
+
+.product_metal_list li a,
+.product_Diamond_list li a,
+.product_Weight_list li a,
+.product_Setting_list li a {
+    font-size: 12px;
+    color: #141414;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif !important;
+}
+select,
+ select:focus  {
+    border: 0 !important;
+    outline: none;
+}

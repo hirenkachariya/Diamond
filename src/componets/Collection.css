@@ -1,0 +1,31 @@
+.collection {
+    padding: 100px 0px;
+}
+
+.collection .MuiContainer-root {
+    max-width: 100%;
+    width: 100%;
+}
+
+.collection_main_heading {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.collection_main_heading h2 {
+    font-size: 34px;
+    color: #141414;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+@media screen and (max-width: 1099px) {
+    .collection {
+        padding: 50px 0px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .collection {
+        padding: 20px 0px;
+    }
+}

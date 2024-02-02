@@ -1,0 +1,138 @@
+.paretty .MuiContainer-root {
+    max-width: 1300px !important;
+    width: 100%;
+}
+
+.paretty_one,
+.paretty_two {
+    position: relative;
+}
+
+.paretty_one_list {
+    position: absolute;
+    top: 10%;
+    left: 40px;
+    transform: translateY(-10%);
+}
+
+.paretty_one_img,
+.paretty_two_img {
+    overflow: hidden;
+}
+
+.paretty_one_img a img,
+.paretty_two_img a img {
+    transition: 0.6s ease-in-out;
+    transform: scale(1);
+}
+
+.paretty_one_img:hover a img,
+.paretty_two_img:hover a img {
+    transform: scale(1.04);
+}
+
+.paretty_one_heading h4 {
+    color: #ffffff;
+    font-size: 27px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif !important;
+    line-height: 1.8;
+}
+
+.paretty_one_paragraph p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.paretty_one_button a {
+    color: #141414;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #ffffff;
+    padding: 15px 40px;
+    display: inline-block;
+}
+
+.paretty_one_button {
+    position: absolute;
+    bottom: 6%;
+    left: 40px;
+    transform: translateY(-6%);
+}
+
+.paretty_two_list {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.paretty_two_heading {
+    padding-bottom: 20px;
+}
+
+.paretty_two_heading h4 {
+    font-family: Italiana, sans-serif;
+    font-size: 85px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.paretty_two_button ul {
+    list-style-type: disc !important;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.paretty_two_button li a {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.paretty_two_button li::after {
+    position: absolute;
+    content: '';
+    bottom: -5px;
+    left: 0;
+    margin: 0 auto;
+    right: 15px;
+    height: 1px;
+    width: 86px;
+    background-color: #ffffff;
+}
+
+.paretty_one_button a span {
+    padding-bottom: 2px;
+    transition: all 0.2s linear;
+    background: linear-gradient(to bottom,
+            rgba(20, 20, 20, 1) 0%,
+            rgba(20, 20, 20, 1) 98%);
+    background-size: 0px 1px;
+    background-repeat: no-repeat;
+    background-position: left 100%;
+}
+
+.paretty_one_button a span:hover {
+    background-size: 100% 1px;
+}
+
+/* responesive */
+@media screen and (max-width: 767px) {
+    .paretty_two {
+        padding-top: 20px;
+    }
+
+    .paretty_one_button a {
+        padding: 10px 30px;
+    }
+}
+
+/* responesive */

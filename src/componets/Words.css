@@ -1,0 +1,33 @@
+.words {
+    background-image: url(../img/words.jpeg);
+    background-size: cover;
+    width: 100%;
+    padding: 40px 0px;
+    position: relative;
+    margin: 100px 0px;
+}
+
+.words .owl-nav {
+    display: none;
+}
+
+.words .MuiContainer-root {
+    max-width: 1300px !important;
+    width: 100% !important;
+}
+
+.words_heading {
+    padding-bottom: 40px;
+}
+
+.words_heading h4 {
+    font-size: 34px;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.WordsProduct_card {
+    background-color: #fff;
+    padding: 40px 20px;
+}

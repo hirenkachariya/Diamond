@@ -1,0 +1,18 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+ul {
+    list-style: none !important;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+a {
+    text-decoration: none !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+img{
+    width: 100%;
+    box-sizing: border-box;
+}

@@ -1,0 +1,30 @@
+.mycategory {
+    padding: 100px 20px 95px;
+}
+
+.mycategory .css-1oqqzyl-MuiContainer-root {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+.category-heading {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.category-heading h2 {
+    font-size: 34px;
+    font-weight: 400;
+    color: #141414;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+/* responesive */
+
+@media screen and (max-width: 544px) {
+    .mycategory {
+        padding: 50px 20px 20px;
+    }
+}
+
+/* responesive */
